@@ -9,12 +9,21 @@
   margin-left: 10%;
 }
 
+.navbar-nav {
+  margin-right: 11%;
+}
+
 .nav-link {
   color: getColour(navlink-colour) !important;
   font-size: 18px;
-  margin-right: 10%;
 }
 
 .nav-link.active {
   color: getColour(primary-colour) !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-nav {
+    margin-left: 10% !important;
+  }
 }

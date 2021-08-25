@@ -37,14 +37,23 @@ h1 {
   margin-left: 10%;
 }
 
+.navbar-nav {
+  margin-right: 11%;
+}
+
 .nav-link {
   color: #8d8d8d !important;
   font-size: 18px;
-  margin-right: 10%;
 }
 
 .nav-link.active {
   color: #c32c72 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-nav {
+    margin-left: 10% !important;
+  }
 }
 
 .card {
