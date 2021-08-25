@@ -1,0 +1,17 @@
+.bg-light {
+  background-color: getColour(header-colour) !important;
+}
+
+.navbar-brand {
+  color: getColour(brand-colour) !important;
+  font-size: 36px;
+}
+
+.nav-link {
+  color: getColour(navlink-colour) !important;
+  font-size: 18px;
+}
+
+.nav-link.active {
+  color: getColour(primary-colour) !important;
+}

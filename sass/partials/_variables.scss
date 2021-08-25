@@ -1,0 +1,11 @@
+$colours: (
+  primary-colour: #c32c72,
+  background-colour: #e5e5e5,
+  header-colour: #f4f3ee,
+  brand-colour: #262626,
+  navlink-colour: #8d8d8d,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
