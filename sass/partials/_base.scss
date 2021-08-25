@@ -1,6 +1,10 @@
+html,
 body {
   background: getColour(background-colour);
   margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -9,4 +13,8 @@ h1 {
   font-family: Open Sans;
   color: getColour(heading-colour);
   font-weight: normal;
+}
+
+.wrapper {
+  flex: 1 0 auto;
 }

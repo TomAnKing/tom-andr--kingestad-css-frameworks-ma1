@@ -5,11 +5,14 @@
 .navbar-brand {
   color: getColour(brand-colour) !important;
   font-size: 36px;
+  font-family: Open Sans;
+  margin-left: 10%;
 }
 
 .nav-link {
   color: getColour(navlink-colour) !important;
   font-size: 18px;
+  margin-right: 10%;
 }
 
 .nav-link.active {

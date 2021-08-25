@@ -1,0 +1,32 @@
+.footer {
+  font-size: 12px;
+  color: getColour(navlink-colour);
+  display: flex;
+  justify-content: space-between;
+  background-color: getColour(header-colour);
+  flex-shrink: 0;
+  padding: 15px;
+}
+
+.email {
+  margin-left: 10%;
+}
+
+.copyright {
+  margin-right: 10%;
+}
+
+@media only screen and (max-width: 991px) {
+  .footer {
+    display: block;
+    text-align: center;
+  }
+
+  .email {
+    margin: 0;
+  }
+
+  .copyright {
+    margin: 0;
+  }
+}
